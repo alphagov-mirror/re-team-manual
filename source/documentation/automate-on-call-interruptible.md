@@ -103,9 +103,9 @@ The proxy node is part of the eIDAS framework. It is deployed to the GSP on the
 Verify cluster by the [in-cluster
 concourse](https://ci.london.verify.govsvc.uk/teams/proxy-node-prod/pipelines/deploy).
 
-Strictly speaking, at the time of writing, the proxy node is not supported out
-of hours. But an escalation may be enacted by a Verify dev or cyber security.
-The most probable result will be the invocation of the [kill
+At the time of writing, the proxy node is not supported out of hours,
+except for one scenario: a security issue severe enough to warrant the
+invocation of the [kill
 switch](https://ci.london.verify.govsvc.uk/teams/proxy-node-prod/pipelines/killswitch).
 
 ### Dev infrastructure
