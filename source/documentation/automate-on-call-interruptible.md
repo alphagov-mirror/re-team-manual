@@ -64,15 +64,13 @@ the software. As with Hub, reliability engineering are not part of the primary
 on call flow and so will only be called on if necessary as part of an
 escalation.
 
-The most common action out of hours for DCS is a DNS-based failover from one
-provider to the other. This is done through the
-[govuk-dns-config](https://github.com/alphagov/govuk-dns-config) repository.
+The most common action out of hours activity for DCS is a [DNS-based
+failover from one provider to the
+other](https://re-team-manual.cloudapps.digital/verify.html#dns-changes).
+
 
 Some useful links:
 
-* [DNS failover
-  instructions](https://re-team-manual.cloudapps.digital/verify.html#dns-changes)
-* [govuk-dns-config repository](https://github.com/alphagov/govuk-dns-config)
 * [verify-boxes repository](https://github.com/alphagov/verify-boxes)
 * [verify-puppet repository](https://github.com/alphagov/verify-puppet)
 * [verify-ansible repository](https://github.com/alphagov/verify-ansible)
