@@ -114,7 +114,7 @@ switch](https://ci.london.verify.govsvc.uk/teams/proxy-node-prod/pipelines/kills
 
 Other "misc" infrastructure for Verify is supported in-hours:
 
-* tools environment which includes concourse, motomo, dash etc.
+* AWS tools environment which includes concourse, motomo, dash etc.
 * UKClound components such as artifactory and jenkins
 
 Relevant gds-cli aws account names:
