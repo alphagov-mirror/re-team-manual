@@ -148,6 +148,7 @@ The most probable source of any kind of event will be cronitor.
 Relevant gds-cli account names:
 
 * re-prom-prod
+* re-prom-staging
 
 #### Interruptible
 
