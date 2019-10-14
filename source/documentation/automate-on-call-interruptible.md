@@ -11,7 +11,7 @@ Team manual:
 
 #### On call
 
-Only escalations from the Verify primary on-call team apply; AlertManager won't
+Only escalations from the Verify primary on-call team apply; Alertmanager won't
 directly page reliability engineering. On occasion it may also be the result of
 a cyber security escalation.
 
@@ -126,17 +126,17 @@ Relevant gds-cli aws account names:
 
 ## Observe
 
-### AlertManager
+### Alertmanager
 
 #### On call
 
-The Observe AlertManager deployment is used by several programme's services to
+The Observe Alertmanager deployment is used by several programme's services to
 route alerts to other systems like PagerDuty. It is part of Observe's Prometheus
-service. AlertManager is deployed to ECS Fargate by
+service. Alertmanager is deployed to ECS Fargate by
 [concourse](https://cd.gds-reliability.engineering/teams/autom8/pipelines/prometheus).
-AlertManager instances are clustered together to handle (among other things)
+Alertmanager instances are clustered together to handle (among other things)
 deduplication of downstream alerting (each prometheus instance sends alerts to
-all the AlertManager instances).
+all the Alertmanager instances).
 
 The most probable source of any kind of event will be cronitor.
 
@@ -154,7 +154,7 @@ Relevant gds-cli account names:
 
 #### Interruptible
 
-In addition to AlertManager, the Prometheus instances need to be managed
+In addition to Alertmanager, the Prometheus instances need to be managed
 in-hours. The most common incident involving the Oberve prometheus instances is
 related to the PaaS service broker not removing deleted PaaS apps from its S3
 store, causing prometheus to alert on instances being down.
