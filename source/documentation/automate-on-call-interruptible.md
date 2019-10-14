@@ -173,7 +173,8 @@ Useful links:
 Cyber security may escalate to reliability engineering out of hours for a number
 of reasons. Possible candidates:
 
-* proxy node CloudHSM communications look suspicious
+* proxy node or connector metadata CloudHSM communications look
+  suspicious
 * certain AWS account access out-of-hours (such as admin)
 * some GSP cluster access patterns out-of-hours
 
