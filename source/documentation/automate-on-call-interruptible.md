@@ -85,12 +85,11 @@ Some useful links:
 
 #### Interruptible
 
-The most common task are the UKCloud and Carrenza machine reboots. An ansible
-playbook exists in the
-[repository](https://github.com/alphagov/verify-ansible/blob/master/rolling_reboots.yml).
-Other notable items include available disk space on packages-1, sensu alerts
-(both low-side and high-side) and other general escalations from the yak team or
-the Verify devs.
+The most common task are the [UKCloud and Carrenza machine
+reboots](https://verify-team-manual.cloudapps.digital/documentation/support/dcs/rolling-reboots.html).
+Other notable items include available disk space on packages-1, sensu
+alerts (both low-side and high-side) and other general escalations
+from the yak team or the Verify devs.
 
 Useful links:
 
