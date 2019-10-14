@@ -190,6 +190,8 @@ TODO
 
 ## Performance Platform
 
+Performance Platform is supported best effort, in-hours only.
+
 ### Interruptible
 
 Main article: [Performance
