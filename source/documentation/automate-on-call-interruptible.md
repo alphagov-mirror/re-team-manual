@@ -1,5 +1,6 @@
-This document will serve as a quick reference for people on the interruptible or
-on-call rotas. It often links to external resources for more detail and context.
+This document will serve as a quick reference for people on the
+Automate interruptible or on-call rotas. It often links to external
+resources for more detail and context.
 
 ## GOV.UK Verify
 
