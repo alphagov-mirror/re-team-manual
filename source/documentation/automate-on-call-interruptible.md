@@ -80,6 +80,7 @@ Some useful links:
 * [Carrenza portal (low side)](https://vcloud.carrenza.com/cloud/org/62xq)
 * [Carrenza portal (high side)](https://vcloud.carrenza.com/cloud/org/62xq-P)
 * [Carrenza VPN access](https://github.com/alphagov/verify-puppet/wiki/Carrenza-Login-&-New-User-Information#vpn-access)
+* [Carrenza support portal](https://6dg.service-now.com/)
 * [DCS grafana
   dashboard](https://grafana.tools.signin.service.gov.uk/d/yOz9AKRZk/dcs-ukc-and-cr?orgId=1&var-Graphite=All)
 * [Additional DCS support
