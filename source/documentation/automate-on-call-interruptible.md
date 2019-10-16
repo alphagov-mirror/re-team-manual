@@ -77,7 +77,9 @@ Some useful links:
 * [doc-checking repository](https://github.com/alphagov/doc-checking)
 * [UKCloud IL2 portal](https://portal.skyscapecloud.com/login)
 * [UKCloud IL3 portal](https://portal.skyscapecloud.gsi.gov.uk/login)
-* [Carrenza portal](https://vcloud.carrenza.com/cloud/org/62xq)
+* [Carrenza portal (low side)](https://vcloud.carrenza.com/cloud/org/62xq)
+* [Carrenza portal (high side)](https://vcloud.carrenza.com/cloud/org/62xq-P)
+* [Carrenza VPN access](https://github.com/alphagov/verify-puppet/wiki/Carrenza-Login-&-New-User-Information#vpn-access)
 * [DCS grafana
   dashboard](https://grafana.tools.signin.service.gov.uk/d/yOz9AKRZk/dcs-ukc-and-cr?orgId=1&var-Graphite=All)
 * [Additional DCS support
@@ -178,11 +180,14 @@ of reasons. Possible candidates:
 * certain AWS account access out-of-hours (such as admin)
 * some GSP cluster access patterns out-of-hours
 
+Useful links:
+
+* [GSP documentation](https://github.com/alphagov/gsp/tree/master/docs)
+
 Relevant gds-cli account names:
 
 * gsp-verify (for AWS)
 * verify (for `kubectl`)
-* [GSP documentation](https://github.com/alphagov/gsp/tree/master/docs)
 
 #### Interruptible
 
